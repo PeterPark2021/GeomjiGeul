@@ -542,7 +542,7 @@ class SmartKeyboardService : InputMethodService() {
         } catch (e: Exception) {
             e.printStackTrace()
         }
-
+    }
 
     private fun cycleCheonjiin(group: List<String>) {
         if (koJamoBuffer.isNotEmpty()) {
